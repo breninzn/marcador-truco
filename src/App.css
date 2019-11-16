@@ -1,7 +1,54 @@
+body{
+  background-image:  url("imgs/fundo.jpg");
+}
 .App {
   text-align: center;
 }
-
+.div-return{
+  margin-left: 5%;
+  margin-top: 22%;
+  position: relative;
+  text-align: center;
+  float: left;
+}
+.btn-pontos{
+  margin-top: 17%;
+  width: 10%;
+  height: 10%;
+  margin-left:5%;
+  background-color: blue;
+  border-color: black;
+  color: azure;
+}
+.label-nome{
+  margin-top:10%;
+}
+.pontos{
+  font-size: 100px;
+  margin-top: 8%;
+}
+.div-right{
+  opacity: 95%;
+  width: 30%;
+  height: 400px;
+  background-color: yellow;
+  margin-top: 15%;
+  margin-left: 5%;
+  position: relative;
+  text-align: center;
+  float: left;
+}
+.div-left{
+  opacity: 95%;
+  width: 30%;
+  height: 400px;
+  background-color: yellow;
+  margin-top: 15%;
+  margin-left: 11%;
+  position: relative;
+  text-align: center;
+  float: left;
+}
 .App-logo {
   height: 40vmin;
 }
